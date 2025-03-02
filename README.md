@@ -4,8 +4,8 @@ Expert Advisor (EA) para gerenciamento avançado de posições no MetaTrader 5.
 
 ## Funcionalidades Principais
 - [x] Fechamento parcial baseado em níveis de Fibonacci  
-- [ ] Integração com API de calendário econômico  
-- [ ] Modo hedge com controle de margem  
+- [ ] Integração com API de calendário econômico.  
+- [ ] Modo hedge com controle de margem.  
 
 ## Requisitos
 - MetaTrader 5 Build 4000+
