@@ -3,6 +3,7 @@
 Expert Advisor (EA) para gerenciamento avançado de posições no MetaTrader 5.
 
 ## Funcionalidades Principais
+- [x] Analise de Exaustao de movimentos  
 - [x] Fechamento parcial baseado em níveis de Fibonacci  
 - [ ] Integração com API de calendário econômico.  
 - [ ] Modo hedge com controle de margem.  
