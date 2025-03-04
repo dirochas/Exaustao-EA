@@ -1,21 +1,28 @@
-# Exaustão-EA 🤖
+# Exaustão-EA 📈
 
-Expert Advisor (EA) para gerenciamento avançado de posições no MetaTrader 5.
+Um Expert Advisor (EA) avançado para MetaTrader 5 focado em análise de exaustão de movimentos e gerenciamento inteligente de posições.
 
-## Funcionalidades Principais
-- [x] Analise de Exaustao de movimentos  
-- [x] Fechamento parcial baseado em níveis de Fibonacci  
-- [ ] Integração com API de calendário econômico.  
-- [ ] Modo hedge com controle de margem.  
+## ✅ Funcionalidades Implementadas
+- **Análise de Exaustão**: Identificação de movimentos exaustivos para entrada precisa
+- **BreakEven Inteligente**: Sistema proporcional baseado em percentual do Take Profit
+- **Fechamento Parcial**: Baseado em níveis de Fibonacci para maximizar resultados
+- **Controle de Operações**: Gerenciamento completo de posições com MagicNumber
 
-## Requisitos
-- MetaTrader 5 Build 4000+
-- Bibliotecas:  
-  ```mql5
-  #include <Trade\Trade.mqh>
-  #include <Arrays\ArrayInt.mqh>
-Instalação
-git clone https://github.com/dirochas/Exaustao-EA.git
-# Copiar pasta 'Exaustao-EA' para /MQL5/Experts/
-Licença
-MIT © Diego Rocha
+## 🚀 Funcionalidades Futuras
+- Contadores e limitadores de lucro e perdas diários
+- Melhorias nos parâmetros de controle de Stop (stop máximo e mínimo)
+- Cálculo de lote automático baseado no risco por trading
+- Sistema de múltiplas ordens por ciclo de risco
+- Integração com API de calendário econômico
+
+## 📋 Requisitos
+- MetaTrader 5 (Build 4000 ou superior)
+- Conta com permissão para EA's
+- Suporte a operações com Hedge (opcional)
+
+## 📦 Bibliotecas Utilizadas
+```cpp
+#include <Trade/Trade.mqh>
+#include <Trade/PositionInfo.mqh>
+#include <Trade/SymbolInfo.mqh>
+#include <Arrays/ArrayDouble.mqh>
