@@ -4,6 +4,7 @@ Um Expert Advisor (EA) avançado para MetaTrader 5 focado em análise de exaust�
 
 ## Estrutura do Projeto
 
+```cpp
 Exaustao.mq5 (Arquivo principal)
 |
 └── Include/
@@ -12,6 +13,7 @@ Exaustao.mq5 (Arquivo principal)
     ├── RiskManagement.mqh (Gerenciamento de risco)
     ├── PositionManagement.mqh (Gerenciamento de posições)
     └── Utils.mqh (Funções utilitárias)
+```
 
 ## Descrição dos Módulos
 
